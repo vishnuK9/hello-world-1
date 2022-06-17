@@ -1,37 +1,65 @@
-<form action="action_page.php">
-  <div class="container">
-    <h1>New user Register for DevOps Learning</h1>
-    <p>Please fill in this form to create an account.</p>
-    <hr>
-     
-    <label for="Name"><b>Enter Name</b></label>
-    <input type="text" placeholder="Enter Full Name" name="Name" id="Name" required>
-    <br>
-    
-    <label for="mobile"><b>Enter mobile</b></label>
-    <input type="text" placeholder="Enter moible number" name="mobile" id="mobile" required>
-    <br>
+<html>
+<head>
+<title>registration form</title>
+</head>
 
-    <label for="email"><b>Enter Email</b></label>
-    <input type="text" placeholder="Enter Email" name="email" id="email" required>
-    <br>
+<h2 ALIGN="CENTER">Registration form</h2>
 
-    <label for="psw"><b>Password</b></label>
-    <input type="password" placeholder="Enter Password" name="psw" id="psw" required>
-    <br>
+<form action="Welcome.html" method="post">
+<table border="0" align="center">
+<tbody>
 
-    <label for="psw-repeat"><b>Repeat Password</b></label>
-    <input type="password" placeholder="Repeat Password" name="psw-repeat" id="psw-repeat" required>
-    <hr>
-    <br>
-    <p>By creating an account you agree to our <a href="#">Terms & Privacy</a>.</p>
-    <button type="submit" class="registerbtn">Register</button>
-  </div>
-  <div class="container signin">
-    <p>Already have an account? <a href="#">Sign in</a>.</p>
-  </div>
+<tr>
+<td><label for="id">Id: </label></td>
+<td><input id="id" maxlength="50" name="name" type="text" /></td>
+</tr>
 
-   <h1> Thankyou, Happy Learning </h1>
+<tr>
+<td><label for="name">Name: </label></td>
+<td><input id="name" maxlength="50" name="name" type="text" /></td>
+</tr>
 
-  
+<tr>
+<td><label for="course">Course: </label></td>
+<td><input id="course" maxlength="50" name="course" type="text" /></td>
+</tr>
+
+<tr>
+<td><label for="branch">Branch: </label></td>
+<td><input id="branch" maxlength="50" name="branch" type="text" /></td>
+</tr>
+
+<tr>
+<td><label for="rolln0">Rollno: </label></td>
+<td><input id="rollno" maxlength="50" name="rollno" type="text" /></td>
+</tr>
+
+<tr>
+<td><label for="email">Email_Address:</label></td>
+<td><input id="email" maxlength="50" name="email" type="text" /></td>
+</tr>
+
+<tr>
+<td><label for="username">User_Name:</label></td>
+<td><input id="username" maxlength="50" name="username" type="text" /></td>
+</tr>
+
+<tr>
+<td><label for="aboutus">About Us:</label></td>
+<td valign="middle" align="center"><textarea></textarea></td>
+</tr>
+
+<tr>
+<td><label for="password">Password:</label></td>
+<td><input id="password" maxlength="50" name="password"
+type="password" /></td>
+</tr>
+
+<tr>
+<td align="right"><input name="Submit" type="Submit" value="Add" /></td>
+</tr>
+
+</tbody>
+</table>
 </form>
+</html>
