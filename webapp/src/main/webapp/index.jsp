@@ -57,6 +57,7 @@ type="password" /></td>
 
 <tr>
 <td align="right"><input name="Submit" type="Submit" value="Add" /></td>
+<td align="right"><input name="Submit" type="Submit" value="Add" /></td>
 </tr>
 
 </tbody>
